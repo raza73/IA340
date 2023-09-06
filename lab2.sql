@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS professor
 (
     p_email VARCHAR(50) NOT NULL,
     p_name VARCHAR(50) NOT NULL,
-    office BYTEA(10) NOT NULL UNIQUE,
+    office VARCHAR(10) NOT NULL UNIQUE,
     PRIMARY KEY(p_email)
 );
 
