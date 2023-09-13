@@ -35,11 +35,11 @@ values('c4','facebook','r1','p3@jmu.edu');
 --2.6
 Update course
 set p_email = 'p3@jmu.edu'
-Where c_number = 'c1'
+Where c_number = 'c1';
 
 Update course
 set p_email = 'p3@jmu.edu'
-Where c_number = 'c3'
+Where c_number = 'c3';
   
 Delete professor
-Where p_email = 'p1@jmu.edu'
+Where p_email = 'p1@jmu.edu';
