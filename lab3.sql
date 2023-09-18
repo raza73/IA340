@@ -43,3 +43,9 @@ Where c_number = 'c3';
   
 Delete professor
 Where p_email = 'p1@jmu.edu';
+
+--2.7
+select * from enroll
+
+--2.8
+
