@@ -26,6 +26,7 @@ values('s1@jmu.edu','c1'),
       ('s3@jmu.edu','c3');
 	  
 --2.5
+--you need to modify the professor table first because you have to alter the professor record before adding it to the table
 Insert into professor(p_email,p_name,office)
 values('p3@jmu.edu','p3','o3');
 
@@ -33,6 +34,7 @@ Insert into course(c_number,c_name,room,p_email)
 values('c4','facebook','r1','p3@jmu.edu');
 
 --2.6
+--you need to modify the course table first because you need to change the p_email before deleting the professor so as to not cause more problems
 Update course
 set p_email = 'p3@jmu.edu'
 Where c_number = 'c1';
